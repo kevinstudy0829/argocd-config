@@ -12,10 +12,6 @@ spec:
       labels:
         app: fastapi
     spec:
-      syncPolicy:
-        automated:
-          prune: true
-          selfHeal: true
       containers:
         - name: fastapi
           image: yillkid/docker-fastapi:v1
